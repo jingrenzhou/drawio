@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T12:17:36.517Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qlJE4Z6rafCGFlMFkVmd" version="22.1.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-12-14T03:04:18.441Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="twCRIopWNGsvyh2tBajZ" version="22.1.8" type="github" pages="6">
   <diagram id="0CyI_YpujX-TxaYFsnf2" name="第 1 页">
     <mxGraphModel dx="1434" dy="742" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2889,10 +2889,10 @@
         <mxCell id="jyq6FcUT1S7Nyb7s_qsm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jyq6FcUT1S7Nyb7s_qsm-19" target="jyq6FcUT1S7Nyb7s_qsm-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jyq6FcUT1S7Nyb7s_qsm-19" value="WatchCache" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jyq6FcUT1S7Nyb7s_qsm-19" value="WatchCache" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="444" y="195" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jyq6FcUT1S7Nyb7s_qsm-21" value="ETCD" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jyq6FcUT1S7Nyb7s_qsm-21" value="ETCD" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="644" y="205" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jyq6FcUT1S7Nyb7s_qsm-23" value="0) List &amp;amp; Watch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -2941,6 +2941,25 @@
         </mxCell>
         <mxCell id="jyq6FcUT1S7Nyb7s_qsm-43" value="6) Dispatch Event Handler functions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="219" y="585" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jyq6FcUT1S7Nyb7s_qsm-46" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="422" y="450" as="sourcePoint" />
+            <mxPoint x="472" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jyq6FcUT1S7Nyb7s_qsm-47" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="426" y="275" as="sourcePoint" />
+            <mxPoint x="789" y="249" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="426" y="288" />
+              <mxPoint x="789" y="288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jyq6FcUT1S7Nyb7s_qsm-48" value="master组件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="574" y="289" width="79" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
