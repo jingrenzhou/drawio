@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T09:01:20.143Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="znHyi7XZ4eTLsqNPefz5" version="22.1.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-15T09:45:21.053Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="kDPwrSOBryCa0XWW9P40" version="22.1.8" type="github" pages="7">
   <diagram id="0CyI_YpujX-TxaYFsnf2" name="第 1 页">
     <mxGraphModel dx="1434" dy="742" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -3063,7 +3063,7 @@
         <mxCell id="INOcnTT_ReWGd9-7q-41-29" value="熔断模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="431" y="475" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="INOcnTT_ReWGd9-7q-41-32" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="INOcnTT_ReWGd9-7q-41-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-50" y="702" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="INOcnTT_ReWGd9-7q-41-33" value="容器hash变化不重启" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
