@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T07:30:59.501Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xZIjL1eWgyRj6cd4AgNs" version="22.1.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-15T07:52:52.785Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2c6sTz6kOHZ3aTksIeCk" version="22.1.8" type="github" pages="7">
   <diagram id="0CyI_YpujX-TxaYFsnf2" name="第 1 页">
     <mxGraphModel dx="1434" dy="742" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2965,12 +2965,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y-FIKfS6V0pTu-glz8gS" name="集群大规模异常重启熔断方案">
-    <mxGraphModel dx="1434" dy="1911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1834" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="INOcnTT_ReWGd9-7q-41-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="520" width="160" height="210" as="geometry" />
+          <mxGeometry x="386" y="520" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="INOcnTT_ReWGd9-7q-41-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="INOcnTT_ReWGd9-7q-41-1" target="INOcnTT_ReWGd9-7q-41-19">
           <mxGeometry relative="1" as="geometry" />
@@ -3030,20 +3030,59 @@
         <mxCell id="INOcnTT_ReWGd9-7q-41-16" value="update CircuitBreakerStatus" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="300" y="238" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="INOcnTT_ReWGd9-7q-41-19" value="CircuitBreakerStatus != CircuitBreaker" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="INOcnTT_ReWGd9-7q-41-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="INOcnTT_ReWGd9-7q-41-19" target="INOcnTT_ReWGd9-7q-41-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="640" />
+              <mxPoint x="345" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INOcnTT_ReWGd9-7q-41-40" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="INOcnTT_ReWGd9-7q-41-38">
+          <mxGeometry x="-0.52" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INOcnTT_ReWGd9-7q-41-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="INOcnTT_ReWGd9-7q-41-19" target="INOcnTT_ReWGd9-7q-41-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="640" />
+              <mxPoint x="30" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="INOcnTT_ReWGd9-7q-41-19" value="CircuitBreakerStatus == CircuitBreaker" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="520" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="INOcnTT_ReWGd9-7q-41-22" value="原生逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="285" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="INOcnTT_ReWGd9-7q-41-25" value="容器hash变化不重启" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="406" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="INOcnTT_ReWGd9-7q-41-26" value="收到删除pod指令不执行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="406" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="INOcnTT_ReWGd9-7q-41-29" value="熔断模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="405" y="525" width="70" height="30" as="geometry" />
+          <mxGeometry x="431" y="525" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="INOcnTT_ReWGd9-7q-41-32" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="800" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="INOcnTT_ReWGd9-7q-41-33" value="容器hash变化不重启" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="INOcnTT_ReWGd9-7q-41-34" value="收到删除pod指令不执行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="INOcnTT_ReWGd9-7q-41-35" value="熔断模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="805" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="INOcnTT_ReWGd9-7q-41-41" value="SetCircuitBreakerMode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="INOcnTT_ReWGd9-7q-41-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.486;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="INOcnTT_ReWGd9-7q-41-41" target="INOcnTT_ReWGd9-7q-41-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
