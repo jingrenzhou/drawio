@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T09:47:24.652Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="DqSMA95u5e4wAc2mgYOt" version="22.1.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-16T03:48:27.181Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="l3fB9PuvyfNtLS8RjpcW" version="22.1.8" type="github" pages="7">
   <diagram id="0CyI_YpujX-TxaYFsnf2" name="第 1 页">
     <mxGraphModel dx="1434" dy="742" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2823,7 +2823,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GSFCrylfY_NNg0A5Aopb" name="client-go机制分析">
-    <mxGraphModel dx="1024" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="667" dy="385" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2942,12 +2942,6 @@
         <mxCell id="jyq6FcUT1S7Nyb7s_qsm-43" value="6) Dispatch Event Handler functions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="219" y="585" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jyq6FcUT1S7Nyb7s_qsm-46" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="422" y="450" as="sourcePoint" />
-            <mxPoint x="472" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="jyq6FcUT1S7Nyb7s_qsm-47" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="426" y="275" as="sourcePoint" />
@@ -2965,7 +2959,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y-FIKfS6V0pTu-glz8gS" name="集群大规模异常重启熔断方案">
-    <mxGraphModel dx="1834" dy="742" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
