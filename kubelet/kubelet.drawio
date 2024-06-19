@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T02:41:10.243Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="G4vkhhp6frRuneU-NVPE" version="24.5.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-06-19T03:04:02.479Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="d1OjyIztTctnKfVMNkOh" version="24.5.5" type="github" pages="8">
   <diagram id="0CyI_YpujX-TxaYFsnf2" name="第 1 页">
     <mxGraphModel dx="1247" dy="721" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1495,6 +1495,33 @@
         </mxCell>
         <mxCell id="uqq8TwQLVs-ZaN-YnDLf-37" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;arrowWidth=0.3282732447817794;arrowSize=0.47600314712825065;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="406" y="1270" width="34" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="uqq8TwQLVs-ZaN-YnDLf-38" value="回调到 config模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="334" y="948" width="113" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="uqq8TwQLVs-ZaN-YnDLf-39" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="840" as="sourcePoint" />
+            <mxPoint x="760" y="838" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uqq8TwQLVs-ZaN-YnDLf-40" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="1282" as="sourcePoint" />
+            <mxPoint x="760" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uqq8TwQLVs-ZaN-YnDLf-41" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="1482" as="sourcePoint" />
+            <mxPoint x="760" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uqq8TwQLVs-ZaN-YnDLf-42" value="kubelet config" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1026" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uqq8TwQLVs-ZaN-YnDLf-43" value="kubelet syncloop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="672" y="1380" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
