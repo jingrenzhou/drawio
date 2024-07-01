@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-28T02:00:41.804Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="9rBuWAv1U2JJ87PiBaxm" version="24.5.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-07-01T07:46:31.304Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="hU5aTZE_D4pCkwdn8w1I" version="24.5.5" type="github" pages="9">
   <diagram id="0CyI_YpujX-TxaYFsnf2" name="第 1 页">
-    <mxGraphModel dx="1434" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1611,7 +1611,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="586c27T2D30uO_m3u6lW-6" value="CheckRemoveProctect == 1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="586c27T2D30uO_m3u6lW-6" value="CheckRemoveProctect == 1 ？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1737.5" y="1698" width="249" height="100" as="geometry" />
         </mxCell>
         <mxCell id="586c27T2D30uO_m3u6lW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-8" target="586c27T2D30uO_m3u6lW-16">
@@ -1630,7 +1630,7 @@
         </mxCell>
         <mxCell id="586c27T2D30uO_m3u6lW-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1510" y="1430" as="sourcePoint" />
+            <mxPoint x="1548" y="1430" as="sourcePoint" />
             <mxPoint x="2860" y="1430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -1670,7 +1670,7 @@
         <mxCell id="586c27T2D30uO_m3u6lW-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-38" target="586c27T2D30uO_m3u6lW-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="586c27T2D30uO_m3u6lW-38" value="RemoveProctect == 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="586c27T2D30uO_m3u6lW-38" value="RemoveProctect == 0 ？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2289" y="1748" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="586c27T2D30uO_m3u6lW-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-40" target="586c27T2D30uO_m3u6lW-3">
@@ -1688,35 +1688,130 @@
         <mxCell id="586c27T2D30uO_m3u6lW-54" value="&lt;div data-language=&quot;go&quot; class=&quot;ql-code-block ql-authorBlock-301613 ql-long-301613&quot;&gt;HandlePod&lt;span style=&quot;background-color: initial;&quot;&gt;Removes&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1680" y="1990" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="586c27T2D30uO_m3u6lW-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-59" target="586c27T2D30uO_m3u6lW-61">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="586c27T2D30uO_m3u6lW-59" value="&lt;div data-language=&quot;go&quot; class=&quot;ql-code-block ql-authorBlock-301613 ql-long-301613&quot;&gt;HandlePodUpdates&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2540" y="1458" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="586c27T2D30uO_m3u6lW-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-60" target="586c27T2D30uO_m3u6lW-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="586c27T2D30uO_m3u6lW-60" value="&lt;div data-language=&quot;go&quot; class=&quot;ql-code-block ql-authorBlock-301613 ql-long-301613&quot;&gt;HandlePodAdditions&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2710" y="1458" width="120" height="60" as="geometry" />
+          <mxGeometry x="2625" y="1464" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="586c27T2D30uO_m3u6lW-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-61" target="586c27T2D30uO_m3u6lW-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="586c27T2D30uO_m3u6lW-61" value="&lt;div style=&quot;text-align: left;&quot; data-language=&quot;go&quot; class=&quot;ql-code-block ql-authorBlock-301613 ql-long-301613&quot;&gt;GetUnexpectedPodCache&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="2610" y="1684" width="150" height="60" as="geometry" />
+          <mxGeometry x="2610" y="1596" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="586c27T2D30uO_m3u6lW-64" value="&lt;div data-language=&quot;go&quot; class=&quot;ql-code-block ql-authorBlock-301613 ql-long-301613&quot;&gt;HandlePod&lt;span style=&quot;background-color: initial;&quot;&gt;Removes&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="2625" y="1850" width="120" height="60" as="geometry" />
+          <mxGeometry x="2625" y="1762" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="586c27T2D30uO_m3u6lW-66" value="如果存在同名的Pod，&lt;div&gt;删除UnexpectedPodCache中的Pod&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2680" y="1774" width="210" height="40" as="geometry" />
+          <mxGeometry x="2680" y="1686" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="586c27T2D30uO_m3u6lW-67" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1890" y="1798" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="586c27T2D30uO_m3u6lW-68" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1780" y="1798" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-69" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2349" y="1818" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-71" target="586c27T2D30uO_m3u6lW-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-71" value="&lt;div data-language=&quot;go&quot; class=&quot;ql-code-block ql-authorBlock-301613 ql-long-301613&quot;&gt;HandlePodUnexpected&lt;/div&gt;&lt;div data-language=&quot;go&quot; class=&quot;ql-code-block ql-authorBlock-301613 ql-long-301613&quot;&gt;Removes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="1317" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-72" value="&lt;div data-language=&quot;go&quot; class=&quot;ql-code-block ql-authorBlock-301613 ql-long-301613&quot;&gt;HandlePod&lt;span style=&quot;background-color: initial;&quot;&gt;Removes&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="3800" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-75" target="586c27T2D30uO_m3u6lW-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3140" y="1689" />
+              <mxPoint x="3247" y="1689" />
+            </Array>
+            <mxPoint x="3247" y="1719" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-75" target="586c27T2D30uO_m3u6lW-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3140" y="1689" />
+              <mxPoint x="3018" y="1689" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-75" value="CheckRemoveProctect == 1 ？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3015.5" y="1557" width="249" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-77" target="586c27T2D30uO_m3u6lW-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-77" value="&lt;div data-language=&quot;go&quot; class=&quot;ql-code-block ql-authorBlock-301613 ql-long-301613&quot;&gt;上传prom指标&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="3187" y="1719" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-79" target="586c27T2D30uO_m3u6lW-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-79" value="kubelet api" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="3339" y="1199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-81" target="586c27T2D30uO_m3u6lW-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-81" value="&lt;div data-language=&quot;go&quot; class=&quot;ql-code-block ql-authorBlock-301613 ql-long-301613&quot;&gt;P1告警&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="3187" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-82" value="&lt;div data-language=&quot;go&quot; class=&quot;ql-code-block ql-authorBlock-301613 ql-long-301613&quot;&gt;异常分析及SOP恢复&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="3378" y="1850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-94" target="586c27T2D30uO_m3u6lW-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-94" value="&lt;div style=&quot;text-align: left;&quot; data-language=&quot;go&quot; class=&quot;ql-code-block ql-authorBlock-301613 ql-long-301613&quot;&gt;podManager.GetPodByName&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="3781" y="1441" width="158" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-96" target="586c27T2D30uO_m3u6lW-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-96" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;getRemovePorctect&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="1441" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-97" value="&lt;div data-language=&quot;go&quot; class=&quot;ql-code-block ql-authorBlock-301613 ql-long-301613&quot;&gt;HandlePod&lt;span style=&quot;background-color: initial;&quot;&gt;Removes&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2958" y="1849" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-106" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3168" y="1657" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-107" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3058" y="1657" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-110" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2930" y="1287" as="sourcePoint" />
+            <mxPoint x="4280" y="1287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-112" value="&lt;span class=&quot;text&quot; style=&quot;box-sizing: border-box;&quot;&gt;runtimeprotect/remove-protect-enable/0&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3390" y="1370" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="586c27T2D30uO_m3u6lW-113" target="586c27T2D30uO_m3u6lW-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-113" value="kubelet api" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="3800" y="1199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-115" value="&lt;span class=&quot;text&quot; style=&quot;box-sizing: border-box;&quot;&gt;runtimeprotect/remove-protect-pod/${namespace}/${podname}&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3870" y="1344" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-116" value="如果configmap无法获取，则默认进入删除阻断" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1945" y="1580" width="265" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-117" value="master" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2766" y="1363" width="55" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="586c27T2D30uO_m3u6lW-118" value="kubelet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1544" y="1735" width="57" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -4144,6 +4239,77 @@
         </mxCell>
         <mxCell id="JpvTIM6t9l1Wc6vna0cQ-32" value="watch pod/node" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="425" y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lDmFXcBNZUp3726IbJCx" name="sidecar整改">
+    <mxGraphModel dx="3034" dy="1629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-1" target="dRBZY8fJmzCm0d4EIls6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-1" target="dRBZY8fJmzCm0d4EIls6-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-1" value="Pod启动失败，放弃重建Pod操作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1300" y="-630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-2" value="满足如下条件：!shouldRestartOnFailure(pod)&lt;div&gt;&amp;nbsp;&amp;amp;&amp;amp; attempt != 0&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;amp;&amp;amp; len(podStatus.ContainerStatuses) != 0&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1380" y="-720" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-3" target="dRBZY8fJmzCm0d4EIls6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-3" target="dRBZY8fJmzCm0d4EIls6-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-3" value="initContainer启动完成，但是此时已经没有Container可以再启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="-630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-5" target="dRBZY8fJmzCm0d4EIls6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-5" target="dRBZY8fJmzCm0d4EIls6-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-5" value="Pod启动策略等于RestartPolicy，且只有&lt;b&gt;sidecar&lt;/b&gt;的满足启动条件，业务容器不满足启动条件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="-635" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-6" value="pod.Spec.RestartPolicy != v1.RestartPolicyAlways&lt;div&gt;sidecar.OnlySidecars(pod, podStatus)&lt;br&gt;&lt;/div&gt;&lt;div&gt;len(podStatus.ContainerStatuses) != 0&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-875" y="-707" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-8" target="dRBZY8fJmzCm0d4EIls6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-8" target="dRBZY8fJmzCm0d4EIls6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-8" value="如果存在initContainer，先执行initContainer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="-630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-10" target="dRBZY8fJmzCm0d4EIls6-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-10" value="如果不存在initContainer，将&lt;b&gt;sidecar&lt;/b&gt;排再启动列表的最前面，对所有满足启动的Container进行启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="-645" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-12" value="不重启Pod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1481" y="-530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-14" value="创建Pod，启动initContainer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1481" y="-210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-18" value="不重启Pod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1481" y="-440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-19" value="不重启Pod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1481" y="-350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-20" value="创建Pod，启动ContainerToStart容器列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1481" y="-120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
