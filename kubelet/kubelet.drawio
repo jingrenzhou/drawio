@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T08:30:41.336Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="HMUstfi3NH-CA-yJzqe-" version="24.5.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-07-04T09:58:16.459Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="eULe6cR5CHTcW0Jrd2WX" version="24.6.4" type="github" pages="9">
   <diagram id="0CyI_YpujX-TxaYFsnf2" name="第 1 页">
     <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -4425,114 +4425,216 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lDmFXcBNZUp3726IbJCx" name="sidecar整改">
-    <mxGraphModel dx="3034" dy="1574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3034" dy="1540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-1" target="dRBZY8fJmzCm0d4EIls6-3">
+        <mxCell id="x0-UpddioMOVnSSxk1eD-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1590" y="860" width="870" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="dRBZY8fJmzCm0d4EIls6-1" target="dRBZY8fJmzCm0d4EIls6-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-1" target="dRBZY8fJmzCm0d4EIls6-12">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dRBZY8fJmzCm0d4EIls6-1" target="dRBZY8fJmzCm0d4EIls6-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-1" value="Pod启动失败，放弃重建Pod操作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-1" value="Pod启动失败，放弃重建Pod操作" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1300" y="-630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-2" value="满足如下条件：!shouldRestartOnFailure(pod)&lt;div&gt;&amp;nbsp;&amp;amp;&amp;amp; attempt != 0&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;amp;&amp;amp; len(podStatus.ContainerStatuses) != 0&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-2" value="满足如下条件：!shouldRestartOnFailure(pod)&lt;div&gt;&amp;nbsp;&amp;amp;&amp;amp; attempt != 0&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;amp;&amp;amp; len(podStatus.ContainerStatuses) != 0&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1380" y="-720" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-3" target="dRBZY8fJmzCm0d4EIls6-5">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="dRBZY8fJmzCm0d4EIls6-3" target="dRBZY8fJmzCm0d4EIls6-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-3" target="dRBZY8fJmzCm0d4EIls6-18">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dRBZY8fJmzCm0d4EIls6-3" target="dRBZY8fJmzCm0d4EIls6-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-3" value="initContainer启动完成，但是此时已经没有Container可以再启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-3" value="initContainer启动完成，但是此时已经没有Container可以再启动" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1040" y="-630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-5" target="dRBZY8fJmzCm0d4EIls6-8">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="dRBZY8fJmzCm0d4EIls6-5" target="dRBZY8fJmzCm0d4EIls6-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-5" target="dRBZY8fJmzCm0d4EIls6-19">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dRBZY8fJmzCm0d4EIls6-5" target="dRBZY8fJmzCm0d4EIls6-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-5" value="Pod启动策略等于RestartPolicy，且只有&lt;b&gt;sidecar&lt;/b&gt;的满足启动条件，业务容器不满足启动条件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-5" value="Pod启动策略等于RestartPolicy，且只有&lt;b&gt;sidecar&lt;/b&gt;的满足启动条件，业务容器不满足启动条件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-780" y="-635" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-6" value="pod.Spec.RestartPolicy != v1.RestartPolicyAlways&lt;div&gt;sidecar.OnlySidecars(pod, podStatus)&lt;br&gt;&lt;/div&gt;&lt;div&gt;len(podStatus.ContainerStatuses) != 0&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-6" value="pod.Spec.RestartPolicy != v1.RestartPolicyAlways&lt;div&gt;sidecar.OnlySidecars(pod, podStatus)&lt;br&gt;&lt;/div&gt;&lt;div&gt;len(podStatus.ContainerStatuses) != 0&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-875" y="-707" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-8" target="dRBZY8fJmzCm0d4EIls6-10">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="dRBZY8fJmzCm0d4EIls6-8" target="dRBZY8fJmzCm0d4EIls6-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-8" target="dRBZY8fJmzCm0d4EIls6-14">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dRBZY8fJmzCm0d4EIls6-8" target="dRBZY8fJmzCm0d4EIls6-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-8" value="如果存在initContainer，先启动第一个initContainer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-8" value="如果存在initContainer，先启动第一个initContainer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-520" y="-630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dRBZY8fJmzCm0d4EIls6-10" target="dRBZY8fJmzCm0d4EIls6-20">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dRBZY8fJmzCm0d4EIls6-10" target="dRBZY8fJmzCm0d4EIls6-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-10" value="如果不存在initContainer，将&lt;b&gt;sidecar&lt;/b&gt;排再启动列表的最前面，对所有满足启动的Container进行启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-10" value="如果不存在initContainer，将&lt;b&gt;sidecar&lt;/b&gt;排再启动列表的最前面，对所有满足启动的Container进行启动" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-260" y="-645" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-12" value="不重启Pod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-12" value="不重启Pod" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1481" y="-530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-14" value="创建Pod，启动initContainer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-14" value="创建Pod，启动initContainer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1481" y="-210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-18" value="不重启Pod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-18" value="不重启Pod" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1481" y="-440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-19" value="不重启Pod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-19" value="不重启Pod" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1481" y="-350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dRBZY8fJmzCm0d4EIls6-20" value="创建Pod，启动ContainerToStart容器列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dRBZY8fJmzCm0d4EIls6-20" value="创建Pod，启动ContainerToStart容器列表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1481" y="-120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="89ZB7Hql7wUGaKMjNyQp-1" value="重建Pod运行时流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="89ZB7Hql7wUGaKMjNyQp-1" value="重建Pod运行时流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1570" y="-630" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="89ZB7Hql7wUGaKMjNyQp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="89ZB7Hql7wUGaKMjNyQp-2" target="89ZB7Hql7wUGaKMjNyQp-4">
+        <mxCell id="89ZB7Hql7wUGaKMjNyQp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="89ZB7Hql7wUGaKMjNyQp-2" target="89ZB7Hql7wUGaKMjNyQp-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="89ZB7Hql7wUGaKMjNyQp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="89ZB7Hql7wUGaKMjNyQp-2" target="89ZB7Hql7wUGaKMjNyQp-3">
+        <mxCell id="89ZB7Hql7wUGaKMjNyQp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="89ZB7Hql7wUGaKMjNyQp-2" target="89ZB7Hql7wUGaKMjNyQp-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="89ZB7Hql7wUGaKMjNyQp-2" value="如果initContainer启动失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="89ZB7Hql7wUGaKMjNyQp-2" value="如果initContainer启动失败" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1300" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="89ZB7Hql7wUGaKMjNyQp-3" value="KillPod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="89ZB7Hql7wUGaKMjNyQp-3" value="KillPod" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1471" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="89ZB7Hql7wUGaKMjNyQp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="89ZB7Hql7wUGaKMjNyQp-4" target="89ZB7Hql7wUGaKMjNyQp-5">
+        <mxCell id="89ZB7Hql7wUGaKMjNyQp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="89ZB7Hql7wUGaKMjNyQp-4" target="89ZB7Hql7wUGaKMjNyQp-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="89ZB7Hql7wUGaKMjNyQp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="89ZB7Hql7wUGaKMjNyQp-4" target="89ZB7Hql7wUGaKMjNyQp-12">
+        <mxCell id="89ZB7Hql7wUGaKMjNyQp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="89ZB7Hql7wUGaKMjNyQp-4" target="89ZB7Hql7wUGaKMjNyQp-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="89ZB7Hql7wUGaKMjNyQp-4" value="如果initContainer中有多个container，执行下一个没有启动container" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="89ZB7Hql7wUGaKMjNyQp-4" value="如果initContainer中有多个container，执行下一个没有启动container" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1070" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="89ZB7Hql7wUGaKMjNyQp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="89ZB7Hql7wUGaKMjNyQp-5" target="89ZB7Hql7wUGaKMjNyQp-6">
+        <mxCell id="89ZB7Hql7wUGaKMjNyQp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="89ZB7Hql7wUGaKMjNyQp-5" target="89ZB7Hql7wUGaKMjNyQp-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="89ZB7Hql7wUGaKMjNyQp-5" value="如果当前容器是sidecar，追加到ContainerToStart列表中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="89ZB7Hql7wUGaKMjNyQp-5" value="如果当前容器是sidecar，追加到ContainerToStart列表中" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-840" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="89ZB7Hql7wUGaKMjNyQp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="89ZB7Hql7wUGaKMjNyQp-6" target="89ZB7Hql7wUGaKMjNyQp-10">
+        <mxCell id="89ZB7Hql7wUGaKMjNyQp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="89ZB7Hql7wUGaKMjNyQp-6" target="89ZB7Hql7wUGaKMjNyQp-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="89ZB7Hql7wUGaKMjNyQp-6" value="如果当前容器是normal容器，根据sidecar依赖规则选择是否放入到ContainerToStart" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="89ZB7Hql7wUGaKMjNyQp-6" value="如果当前容器是normal容器，根据sidecar依赖规则选择是否放入到ContainerToStart" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-620" y="80" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="89ZB7Hql7wUGaKMjNyQp-10" value="按顺序启动ContainerToStart列表中的容器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="89ZB7Hql7wUGaKMjNyQp-10" value="按顺序启动ContainerToStart列表中的容器" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1471" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="89ZB7Hql7wUGaKMjNyQp-12" value="启动initContainer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="89ZB7Hql7wUGaKMjNyQp-12" value="启动initContainer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1471" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Xj0qsyjcZXrKly_cZSYE-1" target="x0-UpddioMOVnSSxk1eD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xj0qsyjcZXrKly_cZSYE-1" value="apiserver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xj0qsyjcZXrKly_cZSYE-4" value="Add Event" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1199" y="708" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0-UpddioMOVnSSxk1eD-2" target="x0-UpddioMOVnSSxk1eD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-2" value="HandlePodAdditions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0-UpddioMOVnSSxk1eD-4" target="x0-UpddioMOVnSSxk1eD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-4" value="SyncPod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-6" value="kuberumtime" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="890" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0-UpddioMOVnSSxk1eD-7" target="x0-UpddioMOVnSSxk1eD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x0-UpddioMOVnSSxk1eD-7" target="x0-UpddioMOVnSSxk1eD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x0-UpddioMOVnSSxk1eD-7" target="x0-UpddioMOVnSSxk1eD-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="x0-UpddioMOVnSSxk1eD-7" target="x0-UpddioMOVnSSxk1eD-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0-UpddioMOVnSSxk1eD-7" target="x0-UpddioMOVnSSxk1eD-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-7" value="computePodActions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0-UpddioMOVnSSxk1eD-8" target="x0-UpddioMOVnSSxk1eD-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-8" value="CreateSandbox=true" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1560" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0-UpddioMOVnSSxk1eD-9" target="x0-UpddioMOVnSSxk1eD-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-9" value="KillPod=true" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1415" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0-UpddioMOVnSSxk1eD-10" target="x0-UpddioMOVnSSxk1eD-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-10" value="ContainersToKill=true" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0-UpddioMOVnSSxk1eD-11" target="x0-UpddioMOVnSSxk1eD-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-11" value="NextInitContainerToStart != nil" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="1180" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x0-UpddioMOVnSSxk1eD-12" target="x0-UpddioMOVnSSxk1eD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-12" value="ContainersToStart != nil" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="1180" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-19" value="KillPod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1490" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-22" value="KillContainers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-24" value="StartInitContainer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1075" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-26" value="StartContainers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-28" value="①" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1540" y="1150" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-29" value="②" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1380" y="1150" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-30" value="③" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1240" y="1150" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-31" value="④" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="1150" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x0-UpddioMOVnSSxk1eD-32" value="⑤" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="1150" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
