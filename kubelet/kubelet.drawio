@@ -4816,6 +4816,72 @@
         <mxCell id="m-sYlkfJeSV-mJe_1n4g-40" value="采集并计算各个NUMA的总cpu使用率（1分钟的平均使用率）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="450" y="738" width="350" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HsVIFIHUXdKm-GDsYnBZ-1" target="HsVIFIHUXdKm-GDsYnBZ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="147" y="1230" width="590" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-2" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="162" y="1280" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-3" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="162" y="1376" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-4" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="209" y="1247" width="76" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-6" value="kubelet/kube-agent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1190" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-7" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="357" y="1280" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-8" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="356" y="1376" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-9" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="403" y="1247" width="76" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-10" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="552" y="1280" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-11" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="552" y="1376" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-12" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="599" y="1247" width="76" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1564" as="sourcePoint" />
+            <mxPoint x="1090" y="1564" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-15" value="cgroup" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="737" y="1584" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HsVIFIHUXdKm-GDsYnBZ-17" target="HsVIFIHUXdKm-GDsYnBZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-17" value="/sys/fs/cgroup/memory/kubepods/pods/memory.numa_stat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="274.5" y="1626" width="335" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-18" value="采集并计算各个NUMA的内存亲和度（NUMAaffinity = affinityMem / affinityMem + nonAffinityMem * 100%）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1520" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-19" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1350" width="76" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-20" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="403" y="1350" width="76" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-21" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1350" width="76" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-22" value="指标上报" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1318" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
