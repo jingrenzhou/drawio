@@ -5551,8 +5551,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-59Wj4Axr-l1BXEI21ZB-58" value="最后一次正常running" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="2458" width="140" height="30" as="geometry" />
+        <mxCell id="-59Wj4Axr-l1BXEI21ZB-58" value="直到最后一次正常running" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="2458" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
