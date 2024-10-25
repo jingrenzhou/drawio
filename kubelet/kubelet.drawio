@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17" pages="12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.8.2" pages="12">
   <diagram id="0CyI_YpujX-TxaYFsnf2" name="第 1 页">
     <mxGraphModel dx="3055" dy="743" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -4894,7 +4894,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GKWkJrXYjM5S7C3GgXCK" name="NUMA调度">
-    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5009,71 +5009,131 @@
         <mxCell id="m-sYlkfJeSV-mJe_1n4g-40" value="采集并计算各个NUMA的总cpu使用率（1分钟的平均使用率）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="450" y="738" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HsVIFIHUXdKm-GDsYnBZ-1" target="HsVIFIHUXdKm-GDsYnBZ-22">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="HsVIFIHUXdKm-GDsYnBZ-1" target="HsVIFIHUXdKm-GDsYnBZ-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="147" y="1230" width="590" height="236" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-2" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-2" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="162" y="1280" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-3" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-3" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="162" y="1376" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-4" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-4" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="209" y="1247" width="76" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-6" value="kubelet/kube-agent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-6" value="kubelet/kube-agent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="380" y="1190" width="120" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-7" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-7" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="357" y="1280" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-8" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-8" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="356" y="1376" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-9" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-9" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="403" y="1247" width="76" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-10" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-10" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="552" y="1280" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-11" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-11" value="NUMAaffinity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="552" y="1376" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-12" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-12" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="599" y="1247" width="76" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="1564" as="sourcePoint" />
             <mxPoint x="1090" y="1564" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-15" value="cgroup" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-15" value="cgroup" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="737" y="1584" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HsVIFIHUXdKm-GDsYnBZ-17" target="HsVIFIHUXdKm-GDsYnBZ-1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HsVIFIHUXdKm-GDsYnBZ-17" target="HsVIFIHUXdKm-GDsYnBZ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-17" value="/sys/fs/cgroup/memory/kubepods/pods/memory.numa_stat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-17" value="/sys/fs/cgroup/memory/kubepods/pods/memory.numa_stat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="274.5" y="1626" width="335" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-18" value="采集并计算各个NUMA的内存亲和度（NUMAaffinity = affinityMem / affinityMem + nonAffinityMem * 100%）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-18" value="采集并计算各个NUMA的内存亲和度（NUMAaffinity = affinityMem / affinityMem + nonAffinityMem * 100%）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="450" y="1520" width="590" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-19" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-19" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="210" y="1350" width="76" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-20" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-20" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="403" y="1350" width="76" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-21" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-21" value="NUMA pod" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="590" y="1350" width="76" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-22" value="指标上报" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+        <mxCell id="HsVIFIHUXdKm-GDsYnBZ-22" value="指标上报" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
           <mxGeometry x="930" y="1318" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="127" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1762" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="546" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-4" value="在线cpu池" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1928" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-5" value="空闲cpu池" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="361" y="1730" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-6" value="离线cpu池" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1928" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-9" value="涨核" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="1868" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="c2JljxI4N8q_XUg8Vx4R-1" target="c2JljxI4N8q_XUg8Vx4R-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="1900" as="sourcePoint" />
+            <mxPoint x="70" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-11" value="缩核" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1898" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-12" value="涨核" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1868" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-13" value="缩核" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="476" y="1898" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="c2JljxI4N8q_XUg8Vx4R-3" target="c2JljxI4N8q_XUg8Vx4R-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="1950" as="sourcePoint" />
+            <mxPoint x="510" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-15" value="&lt;span data-shimo-docs=&quot;[[20,&amp;quot;6个周期内大于等于2次在线容器整体使用率大于70%&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;HEnM\&amp;quot;|33:1|ordered:\&amp;quot;decimal\&amp;quot;&amp;quot;],[20,&amp;quot;6个周期内大于等于2次在线容器整体争抢大于35%&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;gYJC\&amp;quot;|33:1|ordered:\&amp;quot;decimal\&amp;quot;&amp;quot;]]&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 11pt; color: rgb(73, 73, 73);&quot;&gt;1. 6个周期内大于等于2次在线容器整体使用率大于70%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(73, 73, 73); font-size: 11pt; background-color: initial;&quot;&gt;2. 6个周期内大于等于2次在线容器整体争抢大于35%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 11pt; background-color: initial;&quot;&gt;3.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14.6667px; background-color: initial;&quot;&gt;6个周期内大于等于2次在线容器单NUMA1使用率大于50%&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="1768" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-16" value="在线涨核条件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="1738" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-17" value="&lt;span data-shimo-docs=&quot;[[20,&amp;quot;6个周期内大于等于2次在线容器整体使用率大于70%&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;HEnM\&amp;quot;|33:1|ordered:\&amp;quot;decimal\&amp;quot;&amp;quot;],[20,&amp;quot;6个周期内大于等于2次在线容器整体争抢大于35%&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;gYJC\&amp;quot;|33:1|ordered:\&amp;quot;decimal\&amp;quot;&amp;quot;]]&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 11pt; color: rgb(73, 73, 73);&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(73, 73, 73); font-size: 11pt; background-color: initial;&quot; class=&quot;ql-author-112176&quot;&gt;6个周期内大于等于4次在线容器整体使用率小于70%&lt;/span&gt;&lt;span style=&quot;color: rgb(73, 73, 73); font-size: 11pt; background-color: initial;&quot;&gt;且整体争抢小于35%&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;font-size: 11pt; background-color: initial;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14.6667px; background-color: initial;&quot;&gt;6个周期内大于等于4次在线容器单NUMA1使用率小于50%&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-315" y="2110" width="510" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-18" value="在线缩核条件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-158" y="2070" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-19" value="在离线的缩核涨核的选择" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="2120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2JljxI4N8q_XUg8Vx4R-20" value="&lt;font color=&quot;#ff3333&quot;&gt;涨核：挑选NUMA使用率最空闲的cpu&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;缩核：退回NUMA使用率最繁忙的cpu&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="307" y="2160" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
